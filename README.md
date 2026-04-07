@@ -1,20 +1,33 @@
 ### Hey, I'm Chris
 
-GTM Engineer building tools to help revenue teams move faster.
+GTM Engineer building CRM intelligence tools for revenue teams.
 
-**music teacher → sdr → marketing → building with AI**
+**music teacher → SDR → marketing → building with AI**
 
 ---
 
 #### What I'm working on
 
-- [**Radar**](https://radar-gtm.vercel.app) — Lead scoring engine with time-decay and trigger-based routing. Python, Flask, SQL, Slack webhooks. [Code](https://github.com/unboundjoy/lead-signal-tracker)
-- [**Clay Outbound Automation**](https://github.com/unboundjoy/clay-outbound-automation) — Enrichment waterfalls, ICP scoring, and AI-powered email personalization
-- [**Lead Processing Web App**](https://github.com/unboundjoy/lead-processing-app) — Automated event lead processing for CRM upload
+- [**Radar GTM**](https://radar-gtm.vercel.app) — CRM intelligence platform that connects to HubSpot & Salesforce via OAuth, auto-detects buyer personas from closed-won deals, scores contacts with time-decay and AI sentiment analysis, and routes hot leads to Slack. Python, Flask, PostgreSQL, Claude API. [Code](https://github.com/unboundjoy/lead-signal-tracker)
+
+- [**Clay Outbound Automation**](https://github.com/unboundjoy/clay-outbound-automation) — Full outbound workflow with enrichment waterfalls, ICP scoring, Claygent web scraping, and AI-powered email personalization
+
+- [**Lead Processing Web App**](https://github.com/unboundjoy/lead-processing-app) — Python/Flask tool that automates event lead cleanup, enrichment, and CRM formatting for Salesforce import
+
+#### Radar GTM — what it does
+
+Connect your CRM → Radar finds warm pipeline hiding in your data:
+
+- **Pipeline quantification** — estimates opportunity value using win rate × avg deal size × signal count
+- **Champion & job change detection** — finds deal contacts who moved companies via CRM duplicate analysis
+- **AI email sentiment** — classifies reply intent (interested, objection, referral, bad timing) using Claude
+- **Auto buyer persona** — detects your ICP from closed-won deal titles, no manual setup
+- **Smart import** — prioritizes which contacts to monitor based on deal history, engagement, and title match
+- **Slack alerts** — real-time routing for hot leads, job changes, and high-priority signals
 
 #### Tools
 
-`Clay` `HubSpot` `Salesforce` `Python` `SQL` `Claude Code` `Zapier` `n8n`
+`Clay` `HubSpot` `Salesforce` `Python` `Flask` `PostgreSQL` `SQL` `Claude API` `Claude Code` `OAuth` `REST APIs` `Vercel` `Stripe` `Zapier` `n8n`
 
 ---
 
