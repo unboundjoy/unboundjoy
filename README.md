@@ -8,7 +8,7 @@ GTM Engineer building CRM intelligence tools for revenue teams.
 
 #### What I'm working on
 
-- [**Radar GTM**](https://radar-gtm.vercel.app) — CRM intelligence platform that connects to HubSpot & Salesforce via OAuth, auto-detects buyer personas from closed-won deals, scores contacts with time-decay and AI sentiment analysis, and routes hot leads to Slack. Python, Flask, PostgreSQL, Claude API. [Code](https://github.com/unboundjoy/lead-signal-tracker)
+- [**Radar GTM**](https://radar-gtm.vercel.app) — CRM intelligence platform that connects to HubSpot & Salesforce via OAuth, auto-detects buyer personas from closed-won deals, scores contacts with time-decay and AI sentiment analysis, and routes hot leads to Slack. Python, Flask, PostgreSQL, Claude API.
 
 - [**Clay Outbound Automation**](https://github.com/unboundjoy/clay-outbound-automation) — Full outbound workflow with enrichment waterfalls, ICP scoring, Claygent web scraping, and AI-powered email personalization
 
