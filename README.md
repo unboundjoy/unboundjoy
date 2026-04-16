@@ -1,6 +1,6 @@
 ### Hey, I'm Chris
 
-GTM Engineer building CRM intelligence tools for revenue teams.
+GTM Engineer building for revenue teams.
 
 **music teacher → SDR → marketing → building with AI**
 
